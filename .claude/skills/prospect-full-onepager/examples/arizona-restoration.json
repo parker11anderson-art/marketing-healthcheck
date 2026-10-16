@@ -1,0 +1,101 @@
+{
+  "_sources": {
+    "collected": "2026-10-16",
+    "site": "arizonarestorationspecialists.com is behind a SiteGround bot challenge from datacenter IPs. Lede and the web-form leak carry Parker's earlier on-site review (24/7 line, 60-minute arrival, 'What is 4 + 3?' form with no confirmation). Re-confirm on a residential connection before mailing.",
+    "dns": "dns.google, 2026-10-16: TXT has google-site-verification and brevo-code, no v=spf1. _dmarc = v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com. brevo1/brevo2._domainkey CNAME to Brevo DKIM. No MX record. NS ns23/ns24.domaincontrol.com (GoDaddy).",
+    "second_site": "https://www.azrestorationspecialist.com/ fetched 2026-10-16: title 'Home - Arizona Restoration Specialists', 4521 E Jensen St Ste 110, tel 602-497-4035, '30 minute response time', '(c) 2018 Restoration Services', WordPress, no GA4/GTM/ads/call-tracking tags.",
+    "listings": "local.yahoo.com and restoringly.com list 480-716-7151. verifiedremediation.com lists 520-375-2876 for 'Arizona Restoration Specialists of Mesa'. Yelp and Chamber (602-753-3377/3388 per search snippets) could not be loaded, so they are not printed.",
+    "reviews": "Aggregators report 4.9 stars on Google with 106 to 174 reviews depending on date. Printed as 100+."
+  },
+  "business": "Arizona Restoration Specialists",
+  "owner": "Dallin Bowers",
+  "date": "October 16, 2026",
+  "vertical": "water and fire restoration",
+  "eyebrow": "What I found from the outside",
+  "headline": "Missed 2am calls could be costing you about $11,340 a month.",
+  "lede": "Your site leads with a 24/7 line and a 60-minute arrival, and that promise only holds when someone picks up. Overnight, the person answering is often the one running equipment on another loss, and a homeowner standing in water does not leave a voicemail.",
+  "funnel": {
+    "volume": 70,
+    "volume_caption": "emergency calls a month",
+    "factors": [
+      {
+        "rate": 0.12,
+        "caption": "reach voicemail or hold during active jobs"
+      },
+      {
+        "rate": 0.5,
+        "caption": "call another company instead of waiting"
+      },
+      {
+        "rate": 0.6,
+        "caption": "would have become a mitigation job"
+      }
+    ],
+    "ticket": 4500,
+    "result_caption": "a month at a $4,500 average mitigation ticket"
+  },
+  "assumption_line": "My estimates, from your site and typical restoration economics. You know your real call volume. Tell me where I'm off.",
+  "fix_title": "What changes",
+  "fix_copy": "An AI voice agent answers every call live, takes the address, water source and carrier, dispatches your on-call tech and texts the homeowner an arrival window. A night dispatcher or answering service doing that job runs $2,500 to $4,000 a month.",
+  "leaks_head": "More I can put a number on",
+  "leaks": [
+    {
+      "kind": "monthly",
+      "source": "site",
+      "title": "Web leads wait behind a math question",
+      "desc": "Your callback form ends with \"What is 4 + 3?\" and confirms nothing. 20 leads a month, 25% after hours, 50% go elsewhere, 60% close, $4,500 ticket.",
+      "terms": [
+        20,
+        0.25,
+        0.5,
+        0.6,
+        4500
+      ]
+    },
+    {
+      "kind": "per_call",
+      "source": "listings",
+      "title": "Other numbers carry your name",
+      "desc": "Your name and address also appear with 602-497-4035 on a second site and 520-375-2876 on a mold directory. 60% close, $4,500 ticket.",
+      "terms": [
+        0.6,
+        4500
+      ]
+    }
+  ],
+  "checks_head": "Outside-in marketing check",
+  "checks": [
+    {
+      "status": "ok",
+      "label": "Reviews",
+      "text": "4.9 stars across 100+ Google reviews. Your strongest asset."
+    },
+    {
+      "status": "ok",
+      "label": "Email signing",
+      "text": "DKIM is set up through Brevo."
+    },
+    {
+      "status": "fix",
+      "label": "SPF",
+      "text": "No SPF record on your domain, so inboxes cannot check who may send as you."
+    },
+    {
+      "status": "fix",
+      "label": "DMARC",
+      "text": "Set to monitor only, so nothing tells inboxes to reject mail forged in your name."
+    },
+    {
+      "status": "fix",
+      "label": "Second site",
+      "text": "azrestorationspecialist.com promises a 30-minute response, shows a 2018 copyright and runs no analytics."
+    }
+  ],
+  "cta_headline": "Fifteen minutes. Check my math with me.",
+  "cta_sub": "Scan the code or call. If your numbers are smaller, I'll say so.",
+  "url_text": "dohenyai.com",
+  "qr_url": "https://mg.dohenyai.com/widget/bookings/parkers-calendar-007",
+  "short_url_verified": false,
+  "disclaimer": "Estimates from your site, public DNS records, online listings and typical restoration economics. Starting figures for a conversation, not a quote.",
+  "note": "Dallin,\n\nI sized what a missed 2am call costs you, and found two other phone numbers carrying your name and address. My numbers are guesses and you know the real ones. Scan the code or call and tell me where I'm off. Mesa neighbor too.\n\nParker"
+}

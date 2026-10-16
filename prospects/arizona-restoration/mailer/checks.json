@@ -1,0 +1,23 @@
+{
+  "hero_monthly": 11340,
+  "page_monthly_total": 18090,
+  "note_words": 46,
+  "lede_words": 44,
+  "one_page": true,
+  "clearance_above_cta_pt": 37.7,
+  "body_clears_cta": true,
+  "no_unfilled_tokens": true,
+  "fonts": [
+    "AAAAAA+DMSans-9ptRegular",
+    "BAAAAA+DMSans-9ptRegular",
+    "CAAAAA+DMSans-9ptRegular",
+    "DAAAAA+DMSans-9ptRegular",
+    "EAAAAA+DMSans-9ptRegular",
+    "FAAAAA+DMSans-9ptRegular",
+    "GAAAAA+DMSans-9ptRegular",
+    "HAAAAA+DMSans-9ptRegular"
+  ],
+  "brand_font_embedded": true,
+  "qr_decodes_to": "https://mg.dohenyai.com/widget/bookings/parkers-calendar-007",
+  "qr_ok": true
+}
